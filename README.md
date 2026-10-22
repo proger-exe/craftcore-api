@@ -1,5 +1,9 @@
 # CraftCore API
 
+<!-- portfolio-card:start -->
+[![CraftCore API — Экономика, кланы и квесты через единый REST API.](docs/portfolio/card.png)](docs/portfolio/card.svg)
+<!-- portfolio-card:end -->
+
 Backend for a Minecraft server's meta-game: players, economy and transfers, shops with inventory, market, clans, parties, quests, referrals, voting, mailing, moderation (arrests, safety), localization and quality-of-life settings. FastAPI + Tortoise ORM on PostgreSQL. Consumers are a Telegram bot, a Discord bot and the in-game plugin [CraftSocial](https://github.com/proger-exe/craftsocial).
 
 Around 18k lines of Python, 15 routers, startup migrations, structured logging. Deployed with a Gitea Actions pipeline to a systemd service (see `deploy/`).
