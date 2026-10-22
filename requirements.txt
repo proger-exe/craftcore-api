@@ -1,0 +1,8 @@
+aiogram==3.21.0
+fastapi==0.116.1
+uvicorn==0.35.0
+orjson
+structlog
+smpl_config
+tortoise-orm
+pyjwt==2.9.0
